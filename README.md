@@ -3,6 +3,10 @@
 - [x] Spa
 - [x] Routes
 
+## Adding Shop
+
+![image](https://user-images.githubusercontent.com/63013756/83361255-ca53d880-a35d-11ea-9da0-cc7c476472a8.png)
+
 ## Technologies 🚀
 - ReactJs
 

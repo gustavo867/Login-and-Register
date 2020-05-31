@@ -1,6 +1,13 @@
-h1 {
+ .container h1 {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container {
+    overflow: hidden;
+    position: relative;   
+    justify-items: center;
+    justify-content: center;
 }
