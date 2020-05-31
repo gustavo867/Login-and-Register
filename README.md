@@ -13,4 +13,4 @@
 ![image](https://user-images.githubusercontent.com/63013756/83346155-5e875680-a2f0-11ea-9a3c-d06f7049085e.png)
 
 
-## Made by <Gustavo/> ❤️
+## Made by Gustavo  ❤️
