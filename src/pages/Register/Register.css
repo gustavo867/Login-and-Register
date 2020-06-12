@@ -1,7 +1,7 @@
-img {
-    height: 190px;
+.register-container .content img {
+    height: 200px;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .register-container .content section a {
@@ -24,10 +24,10 @@ img {
    opacity: 0.8
 }
 
-.register-container {
+.container {
+    background-color: #B0C4DE;
     width: 100%;
-    max-width: 1120px;
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
 
     display: flex;
@@ -35,11 +35,17 @@ img {
     justify-content: center;
 }
 
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .register-container .content {
-    width: 100%;
+    width: 80%;
     padding: 96px;
     background: #FFFAFA;
-    border-radius: 8px;
+    border-radius: 10px;
 
     display: flex;
     justify-content: space-between;
@@ -53,7 +59,7 @@ img {
     font-size: 18px;
 
     border: 1px solid #dcdce6;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 0 24px;
     color: #333;
 

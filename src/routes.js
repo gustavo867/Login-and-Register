@@ -8,11 +8,11 @@ import Shop from './pages/Shop/Shop';
 export default function Routes() {
     return (
         <BrowserRouter>
-        <Switch>
-            <Route path="/" exact component={Login}/>
-            <Route path="/register" component={Register}/>
-            <Route path="/shop" component={Shop}/>
-        </Switch>
+            <Switch>
+                <Route path="/" exact component={Login}/>
+                <Route path="/register" component={Register}/>
+                <Route path="/shop" component={Shop}/>
+            </Switch>
         </BrowserRouter>
     )
 }

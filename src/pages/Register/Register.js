@@ -7,6 +7,7 @@ import Logo from '../../assets/logo-puma.svg'
 
 export default function Register() {
     return (
+    <div className="container">
         <div className="register-container">
             <div className="content">
                 <section>
@@ -27,5 +28,6 @@ export default function Register() {
                 </form>
             </div>
         </div>
+    </div>
     );
 }

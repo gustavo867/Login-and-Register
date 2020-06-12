@@ -1,13 +1,10 @@
-img {
+.login-container img {
     height: 150px;
     margin-bottom: 10px
 }
 
-div {
-    background-color: #B0C4DE;
-}
-
 .login-container {
+    background-color: #B0C4DE;
     height: 100%;
     display: flex;
     justify-content: center;

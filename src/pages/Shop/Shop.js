@@ -1,31 +1,50 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { FiArrowLeft } from 'react-icons/fi'
-import Lottie from 'lottie-react-web'
+import React  from 'react';
+import Switch  from "react-switch";
 
-import './Shop.css'
+import Lottie from 'lottie-react-web';
+import Animation from '../../assets/8216-working-room.json';
 
-import workingAnimation from '../../assets/8216-working-room.json'
+import { Container } from  './styles.js';
+
+import light from '../../themes/light';
+import dark from '../../themes/dark';
+
+import logo2 from '../../assets/logo-puma.svg'
 
 export default function Shop() {
     return (
-        <div className="container">
-             <Link to="/">
-                    <FiArrowLeft size={16} color="#000" />
-                    Back To Home 🏠 
-                </Link>
-
-            <h1>Working on Shop 👷‍♂️</h1>
-        <Lottie
-        width={900}
-        height={900}
-        renderer= "svg"
-        options={{
-            loop: true,
-            autoplay: true, 
-            animationData: workingAnimation
-            }}
-        />
+    <>
+            <Container>
+                <img src={logo2} alt="logo"/>
+                <h3>Home</h3>
+                <h3>Shop</h3>
+                <h3>Shoes</h3>
+                <h3>Shirts</h3>     
+                <Switch
+                onChange={() => {}}
+                checked={light === dark}
+                checkedIcon={false}
+                uncheckedIcon={false}
+                height={10}
+                width={40}
+                handleDiameter={20}
+                offColor="#ccc"
+                onColor="#B5FFE1"
+                />        
+            </Container> 
+ 
+        <div className="lottie">
+            <Lottie
+            width={700}
+            height={700}
+            renderer= "svg"
+            options={{
+                loop: true,
+                autoplay: true, 
+                animationData: Animation
+                }}
+            />   
         </div> 
+    </>     
     )
 }

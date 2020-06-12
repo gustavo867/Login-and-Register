@@ -7,16 +7,18 @@ import { FiLogIn } from 'react-icons/fi'
 export default function Login() {
     return (
         <div className="login-container">
-            <form >
+            <form>
                 <img src={puma} alt="monzo" />
                 <input 
+                type="email"
+                required
                 placeholder="E-mail Adress"
-                />
+                /> 
                 <input 
+                required
                 type="password"
                 placeholder="Password"
                 />
-
                 <Link to="/shop">
                     <button type="submit">Entrar</button>
                 </Link>

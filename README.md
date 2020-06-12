@@ -1,12 +1,16 @@
+## <center>Making Toggle Theme and Shop</center>
+
+<center> <img width="700" src="https://user-images.githubusercontent.com/63013756/84550837-1d287b00-ace2-11ea-8ebe-bbb26b99dd64.png"></img> </center>
+
+
 ## Login and Register screen on React
 - [x] Use ReactJs
 - [x] Spa
 - [x] Routes
 
-
-
 ## Technologies 🚀
 - ReactJs
+- Styled Components
 
 ## Pictures 
 
